@@ -1,0 +1,112 @@
+
+HTML {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+BODY {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+H1 {
+	text-align: center;
+}
+
+/* Container */
+.container {
+	width: 540px;
+	height: 480px;
+	margin: auto;
+	border: 1px black solid;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+
+/* List */
+UL {
+	margin: 0px;
+	padding: 0px;
+}
+
+LI {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #666666;
+
+	list-style-type: none;
+	width: 192px;
+
+	font-size: 12pt;
+	text-align: center;
+}
+
+LI:nth-child(odd) {
+	background-color: #DDDDDD;
+}
+
+.current {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #666666;
+	float: left;
+
+	height: 256px;
+	width: 256px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 256px 256px;
+	background-image: url(http://api.twitter.com/1/users/profile_image?screen_name=bibmake&size=bigger);
+}
+
+.current DIV {
+	font-size: 12pt;
+	text-align: center;
+
+	background: rgba(192, 192, 192, 0.7);
+}
+
+
+
+.list UL LI {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 64px 64px;
+	height: 86px;
+}
+
+.list UL LI:first-child {
+	background-size: 128px 128px;
+	height: 150px;
+}
+
+.list UL LI:nth-child(2) {
+	background-size: 96px 96px;
+	height: 118px;
+}
+
+
+.current IMG {
+	width: 256px;
+	height: 256px;
+	padding: 2px;
+}
+
+.list UL LI DIV {
+	font-size: small;
+	text-align: right;
+	clear: none;
+	font-size: 9pt;
+
+	background: rgba(192, 192, 192, 0.7);
+}
+
+.list {
+	float: right;
+	overflow-y: scroll;
+	width: 240px;
+	height: 480px;
+}
