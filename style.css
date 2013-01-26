@@ -59,7 +59,7 @@ LI:nth-child(odd) {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 256px 256px;
-	background-image: url(http://api.twitter.com/1/users/profile_image?screen_name=bibmake&size=bigger);
+	background-image: url(http://api.twitter.com/1/users/profile_image?screen_name=bibmake&size=original);
 }
 
 .current DIV {
