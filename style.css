@@ -43,9 +43,11 @@ LI {
 	text-align: center;
 }
 
+/*
 LI:nth-child(odd) {
 	background-color: #DDDDDD;
 }
+*/
 
 .current {
 	margin: 5px;
@@ -76,16 +78,20 @@ LI:nth-child(odd) {
 	background-repeat: no-repeat;
 	background-size: 64px 64px;
 	height: 86px;
+	width: 90px;
+	float: left;
 }
 
 .list UL LI:first-child {
 	background-size: 128px 128px;
 	height: 150px;
+	width: 200px;
 }
 
 .list UL LI:nth-child(2) {
 	background-size: 96px 96px;
 	height: 118px;
+	width: 200px;
 }
 
 
